@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE blog [
+<!ELEMENT blog (article+)>
+<!ELEMENT article (title+,content+,keywords*,author+,email)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT content (#PCDATA)>
+<!ELEMENT keywords (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ATTLIST article id CDATA "id_0" >
+<!ATTLIST title language CDATA "en_US" >
+<!ATTLIST content language CDATA "en_US" >
+<!ATTLIST keywords language CDATA "en_US" >
+<!ATTLIST author language CDATA "en_US" > 
+]>
+<blog>
+  <article id="id_1">
+    <title language="en_US">Writing XML Articles</title>
+    <content language="en_US">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet.</content>
+    <keywords language="en_US">XML,articles,how to</keywords>
+    <author language="en_US">Sayyed Jamal Ghasemi</author>
+    <email>jamal13647850@gmail.com</email>
+    <title language="fa_IR">نوشتن مقاله با ایکس ام ال</title>
+    <content language="fa_IR">
+    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+    </content>
+    <keywords language="fa_IR">ایکس ام ال,مقاله</keywords>
+    <author language="fa_IR">سید جمال قاسمی</author>
+  </article>
+  <article id="id_2">
+    <title language="en_US">Second XML article</title>
+    <content language="en_US">This is content of second xml articles</content>
+    <keywords language="en_US">XML,ddt,second</keywords>
+    <author language="en_US">Sayyed Omid Safavi</author>
+    <email>omid@gmail.com</email>
+    <title language="fa_IR">مقاله دوم ایکس ام ال</title>
+    <content language="fa_IR">
+این محتوای مقاله دوم با کمک ایکس ام ال هست    
+    </content>
+    <keywords language="fa_IR">ایکس ام ال,مقاله</keywords>
+    <author language="fa_IR">سید امید صفوی</author>
+  </article>
+  <article id="id_3">
+    <title language="en_US">Third XML article</title>
+    <content language="en_US">This is content of Third xml articles</content>
+    <keywords language="en_US">XML,ddt,Third</keywords>
+    <author language="en_US">Sayyed Jamal Ghasemi</author>
+    <email>jamal13647850@gmail.com</email>
+    <title language="fa_IR">عنوان مقاله سوم ایکس ام ال</title>
+    <content language="fa_IR">
+این محتوای مقاله سوم هست .
+    </content>
+    <keywords language="fa_IR">ایکس ام ال,مقاله</keywords>
+    <author language="fa_IR">سید جمال قاسمی</author>
+  </article>
+</blog>

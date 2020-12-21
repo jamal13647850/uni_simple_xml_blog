@@ -1,0 +1,18 @@
+.column{
+    display:flex;
+    flex-direction: column;
+}
+.row{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+article{
+    margin: 20px;
+}
+
+#atitle,#acontent,#akeywords,#author{
+    margin: 20px;
+    text-align: center;
+}
